@@ -40,7 +40,7 @@ export const HeaderMain = () => {
                     <Button className="rounded-full hidden sm:flex  p-6 px-10">
                         <Link href="/contact" className="inline-flex items-center gap-2">
                             <ArrowRight className="h-4 w-4" />
-                            <span>Contact Sales</span>
+                            <span>Let's Connect</span>
                         </Link>
                     </Button>
                 </div>

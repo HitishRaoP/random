@@ -5,7 +5,7 @@ import Image from "next/image";
 const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-tr from-[#1420b8] to-black flex items-center justify-center py-12 font-sans">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl px-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl px-4 items-stretch">
         {/* LEFT PANEL */}
         <div className="bg-[rgba(21,27,97,0.85)] rounded-2xl p-8 text-white shadow-xl flex flex-col justify-between">
           <div>
@@ -96,10 +96,15 @@ const Contact: React.FC = () => {
           </form>
         </div>
         {/* RIGHT PANEL */}
-        <div className="flex flex-col gap-6">
-          <div className="rounded-xl overflow-hidden shadow-lg bg-white/10">
-            {/* Replace with your own image as needed */}
-            <Image src="/meeting.jpg" width={380} height={170} alt="Meeting" className="w-full h-[170px] object-cover" />
+        <div className="flex flex-col gap-6 h-full">
+          <div className="rounded-xl overflow-hidden shadow-lg bg-white/10 flex-1">
+            {/* Placeholder for meeting image */}
+            <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+              <div className="text-white text-center">
+                <div className="text-4xl mb-2">📞</div>
+                <div className="text-sm font-medium">Meeting Image</div>
+              </div>
+            </div>
           </div>
           <div className="bg-[#11132c] rounded-xl text-white p-7 shadow-lg">
             <div className="bg-[#292b50] text-xs font-bold rounded-full px-3 py-1 mb-3 w-fit">

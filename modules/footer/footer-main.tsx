@@ -11,8 +11,8 @@ export const FooterMain = () => {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 					{/* Brand + Social */}
 					<div>
-						<div className="text-2xl font-semibold text-white">Nava.Studio</div>
-						<p className="mt-6 text-sm text-neutral-400">Connect with me:</p>
+						<div className="text-2xl font-semibold">Nava.Studio</div>
+						<p className="mt-6 text-sm text-muted-foreground/90">Connect with me:</p>
 						<div className="mt-4 flex items-center gap-4">
 							<Link href="#" className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-white hover:bg-neutral-800 transition-colors">
 								<Dribbble className="h-5 w-5" />

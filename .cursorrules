@@ -1,0 +1,78 @@
+# Cursor Rules for Next.js Project
+
+## Project Overview
+This is a Next.js 15 project with TypeScript, Tailwind CSS, and modern React patterns.
+
+## Tech Stack
+- Next.js 15 with App Router
+- TypeScript
+- Tailwind CSS v4
+- React 19
+- Lucide React (icons)
+- Radix UI components
+
+## Code Style & Conventions
+
+### File Structure
+- Components are organized in `/modules` directory by feature
+- Each module has its own folder with component files
+- Use descriptive, kebab-case file names
+- Export components as named exports
+
+### Component Guidelines
+- Use functional components with TypeScript
+- Prefer arrow functions for components
+- Use proper TypeScript interfaces for props
+- Always use 'use client' directive when needed
+- Use Tailwind CSS for styling
+
+### Styling
+- Use Tailwind CSS classes exclusively
+- Follow mobile-first responsive design
+- Use semantic color classes (text-muted-foreground, bg-secondary, etc.)
+- Maintain consistent spacing with Tailwind spacing scale
+
+### Import Organization
+- React imports first
+- Next.js imports second
+- Third-party library imports third
+- Local imports last (use @/ alias)
+
+### Naming Conventions
+- Components: PascalCase (e.g., `PricingSection`)
+- Files: kebab-case (e.g., `pricing-section.tsx`)
+- Variables: camelCase
+- Constants: UPPER_SNAKE_CASE
+
+## Package Manager
+- Use Bun as the primary package manager
+- Run `bun install` to install dependencies
+- Use `bun run dev` to start development server
+- Use `bun run build` to build the project
+
+## Development Guidelines
+- Always check for TypeScript errors before committing
+- Use proper error boundaries
+- Implement proper loading states
+- Follow accessibility best practices
+- Use semantic HTML elements
+
+## Component Patterns
+- Keep components focused and single-purpose
+- Use proper prop types and interfaces
+- Implement proper error handling
+- Use React hooks appropriately
+- Prefer composition over inheritance
+
+## Performance
+- Use Next.js Image component for images
+- Implement proper lazy loading
+- Use dynamic imports when appropriate
+- Optimize bundle size
+
+## Code Quality
+- Write clean, readable code
+- Use meaningful variable and function names
+- Add comments for complex logic
+- Follow DRY principles
+- Keep functions small and focused
