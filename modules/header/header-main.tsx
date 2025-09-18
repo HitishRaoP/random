@@ -13,8 +13,8 @@ export const HeaderMain = () => {
         <header className="w-full sticky top-0 z-50 py-3 bg-background backdrop-blur-md">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <Image src="/vercel.svg" alt="Nava Studio" width={24} height={24} className="invert" />
-                    <Link href="/" className="text-xl font-semibold tracking-tight">Nava.Studio</Link>
+                    <Image src="/vercel.svg" alt="work0" width={24} height={24} className="invert" />
+                    <Link href="/" className="text-xl tracking-tight font-mono">Work0</Link>
                 </div>
                 <div className="flex items-center gap-3">
                     <DropdownMenu>

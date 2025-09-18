@@ -9,18 +9,18 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nava Studio — Digital Agency",
-    template: "%s — Nava Studio",
+    default: "Work0 — Digital Agency",
+    template: "%s — Work0",
   },
   description:
     "Transforming your digital presence with innovative web design, intuitive app design, and impactful branding.",
-  metadataBase: new URL("https://nava-studio.webflow.io"),
+  metadataBase: new URL("https://work0.dev"),
   openGraph: {
-    title: "Nava Studio — Digital Agency",
+    title: "Work0 — Digital Agency",
     description:
       "Transforming your digital presence with innovative web design, intuitive app design, and impactful branding.",
     type: "website",
-    url: "https://nava-studio.webflow.io",
+    url: "https://work0.dev",
   },
   icons: {
     icon: "/favicon.ico",
